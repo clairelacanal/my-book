@@ -1,0 +1,50 @@
+#about {
+    height: 600px;
+    background-color: #ecf0f1;
+}
+.container-about {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo img {
+    width: 380px;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.container-presentation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.liens a:hover {
+    border-bottom: 3px solid #e74c3c;
+}
+
+.liens a {
+    margin-left: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.paragraphes-presentation {
+    height: 285px;
+    width: 600px;
+}
+
+.paragraphes-presentation p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
