@@ -13,10 +13,11 @@ class MesProjets extends React.Component {
                 <div className="projets-background">
                     <article className="app-react">
                         <img src={food} alt="food"/>
-                        <a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">Basil l'appli anti-gaspi !</a>
+                        <a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">Basil l'appli anti-gaspi</a>
                     </article>
                     <article className="app-react">
                         <img src={plants} alt="plants"/>
+                        <a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">Plant-sitter, le gardiennage de vos plantes vertes</a>
                     </article>
                     <article className="app-react">
                         <img src={child} alt="child"/>
