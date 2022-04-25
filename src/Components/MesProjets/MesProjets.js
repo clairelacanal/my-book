@@ -11,16 +11,14 @@ class MesProjets extends React.Component {
                 <h1>Récents projets.</h1>
                 <p>Dernières réalisations</p>
                 <div className="projets-background">
-                    <article className="app-react">
-                        <img src={food} alt="food"/>
-                        <a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">Basil l'appli anti-gaspi</a>
+                    <article className="app-react-food">
+                        <button><a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">Basil l'appli anti-gaspi</a></button>
                     </article>
-                    <article className="app-react">
-                        <img src={plants} alt="plants"/>
-                        <a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">Plant-sitter, le gardiennage de vos plantes vertes</a>
+                    <article className="app-react-plant">
+                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">Plant-sitter, le gardiennage de vos plantes vertes</a></button>
                     </article>
-                    <article className="app-react">
-                        <img src={child} alt="child"/>
+                    <article className="app-react-kids">
+                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">En cours de construction</a></button>
                     </article>
                 </div>
             </section>

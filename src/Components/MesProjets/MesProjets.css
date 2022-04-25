@@ -28,14 +28,49 @@
     justify-content: center;
 }
 
-.app-react article {
-    width: 600px;
-    height: 600px;
+
+.projets-background article {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.app-react img {
+.app-react-food {
+    background-image: url('../images/foods.jpg');
+    background-size: cover;
     width: 400px;
     height: 400px;
-    margin-right: 20px;
-    cursor: pointer;
+}
+
+.app-react-plant {
+    background-image: url('../images/plants.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.app-react-kids {
+    background-image: url('../images/toys.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.projets-background button {
+    width: 300px;
+    height: 40px;
+    background-color: #e74c3c;
+    border: 1px solid #e74c3c;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    opacity: 0.8;
+    margin-top: 193px;
+}
+
+.projets-background a {
+    display: inline-block;
+    text-decoration: none;
+    color:#ecf0f1;
+    font-weight: bold;
+
 }
