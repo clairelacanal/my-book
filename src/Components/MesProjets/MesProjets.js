@@ -13,6 +13,7 @@ class MesProjets extends React.Component {
                 <div className="projets-background">
                     <article className="app-react">
                         <img src={food} alt="food"/>
+                        <a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">Basil l'appli anti-gaspi !</a>
                     </article>
                     <article className="app-react">
                         <img src={plants} alt="plants"/>
