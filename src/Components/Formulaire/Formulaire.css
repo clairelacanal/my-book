@@ -17,6 +17,14 @@ form {
     background-color: #ecf0f1;
 }
 
+#email  {
+    width: 591px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #ecf0f1;
+}
+
 #sujet  {
     width: 591px;
     height: 30px;
@@ -34,7 +42,7 @@ input {
 }
 
 textarea {
-    height: 150px;
+    height: 105px;
     width: 593px;
     margin-left: 10px;
     border-top: none;
