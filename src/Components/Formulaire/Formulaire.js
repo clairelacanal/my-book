@@ -7,11 +7,11 @@ class Formulaire extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            prenom: '',
-            nom:  '',
-            email: '',
-            sujet: '',
-            message: ''
+            prenom: "",
+            nom: "",
+            email: "",
+            sujet: "",
+            message: ""
         };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);

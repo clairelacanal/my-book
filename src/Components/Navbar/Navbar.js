@@ -27,7 +27,6 @@ function Navbar(){
 
     return(
         <nav>
-        <h1>Créaweb</h1>
         {(toggleMenu || largeur > 500) && (
             <ul className="liste">
                     <li className="items"><a href="#about">A propos</a></li>
