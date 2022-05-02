@@ -1,7 +1,7 @@
 let express = require('express');
 let router = express.Router();
 let nodemailer = require('nodemailer');
-const creds = require('./config');
+const creds = require('.env');
 
 var transport = {
     host: 'smtp.gmail.com', // Don’t forget to replace with the SMTP host of your provider
@@ -32,8 +32,8 @@ router.post('/send', (req, res, next) => {
     let content = `prenom: ${prenom} \n nom: ${nom} \n email: ${email} \n sujet: ${sujet} \n message: ${message}`;
   
     let mail = {
-        from: prenom, nom, 
-        to: 'RECEIVING_EMAIL_ADDRESS_GOES_HERE',  // Change to email address that you want to receive messages on
+        from: prenom,  
+        to: 'lacanal.claire@gmail.com',  // Change to email address that you want to receive messages on
         subject: 'New Message from Contact Form',
         text: content
       };
@@ -42,7 +42,7 @@ router.post('/send', (req, res, next) => {
         if (err) {
           res.json({
             status: 'fail'
-          })
+          });
         } else {
           res.json({
            status: 'success'

@@ -48,3 +48,21 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles pour cette Media Queries */
+    .container-about {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo img {
+        width: 100px;
+        height: 200px;
+    }
+
+}
