@@ -53,7 +53,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles pour cette Media Queries */
     .container-about {
-        padding-top: 10px;
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -61,8 +61,37 @@
     }
 
     .photo img {
-        width: 100px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .container-presentation {
+        margin-bottom: 200px;
+    }
+
+    .liens {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 310px;
+    }
+
+    .liens a {
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+
+    .paragraphes-presentation {
+        height: 100px;
+        width: 300px;
+        text-align: justify;
+    }
+    
 
 }
