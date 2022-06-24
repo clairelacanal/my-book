@@ -14,6 +14,10 @@
     color: #ecf0f1;
 }
 
+.background-banniere h1 {
+    text-align: center;
+}
+
 .background-banniere button {
     background-color: #e66767;
     color: #ecf0f1;
@@ -22,4 +26,18 @@
     border: 1px solid #e66767;
     border-radius: 25px;
     font-weight: bold;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles pour cette Media Queries */
+    .banniere {
+        height: 500px;
+    }
+
+    .background-banniere p {
+        margin-top: 70px;
+    }
+
+
+    
 }
