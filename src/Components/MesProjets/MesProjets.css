@@ -77,8 +77,45 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles pour cette Media Queries */
-   
     #mes-projets {
-        display: none;
+        height: 800px;
     }
+   
+    #mes-projets h1 {
+        padding-top: 50px;
+    }
+
+    .projets-background {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .projets-background article {
+        margin-top: 10px;
+    }
+
+    .app-react-food {
+        width: 200px;
+        height: 200px;
+    }
+
+    .app-react-plant {
+        width: 200px;
+        height: 200px;
+    }
+
+    .app-react-kids {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projets-background button {
+        width: 200px;
+        height: 20px;
+        margin-top: 50%;
+    }
+    
 }
