@@ -49,7 +49,8 @@
     .background-image h1 {
         color: red;
         font-size: 60px;
-        margin-top: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
         text-align: center;
     }
 
@@ -58,7 +59,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles pour cette Media Queries */
     .background-image h1 {
-        font-size: 60px;
+        font-size: 40px;
         margin-top: 200px;
         text-align: center;
     }

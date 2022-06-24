@@ -16,3 +16,34 @@ hr {
     width: 150px;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles pour cette Media Queries */
+    
+    hr {
+       display: none;
+   }
+
+   .presentation-me {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    }
+
+    .presentation-me h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+   
+   .presentation-me img {
+       height: 150px;
+       width: 150px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+    
+
+}
+

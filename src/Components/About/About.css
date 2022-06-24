@@ -36,6 +36,7 @@
     margin-left: 60px;
     position: relative;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .paragraphes-presentation {
@@ -52,6 +53,11 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles pour cette Media Queries */
+    #about {
+        height: 100vh;
+        background-color: #ecf0f1;
+    }
+
     .container-about {
         padding-top: 50px;
         display: flex;
@@ -61,8 +67,8 @@
     }
 
     .photo img {
-        width: 300px;
-        height: 300px;
+        width: 170px;
+        height: 170px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -78,13 +84,18 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 310px;
+        width: 200px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
     .liens a {
         padding: 0;
-        margin-left: 20px;
-        margin-right: 30px;
+        font-size: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     .paragraphes-presentation {
