@@ -1,3 +1,4 @@
+/* Barre de navigation */
 nav {
     height: 50px;
     position: absolute;
@@ -5,7 +6,7 @@ nav {
     right: 0;
 }
 
-
+/* Liste de navigation principale */
 .liste {
     margin: 0;
     margin-right: 100px;
@@ -17,44 +18,36 @@ nav {
     justify-content: flex-end;
 }
 
+/* Éléments de navigation */
 .items {
     margin-right: 40px;
-    font-family: "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;;
+    font-family: "Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
     color: #ecf0f1;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 17px;
-}
-
-.items li {
     position: relative;
 }
 
-.items:hover {
-    border-bottom: 3.5px solid #ecf0f1;
-    margin-top: 5px;
-}
-
-.btn {
-    display: none;
-}
-
+/* Styles des liens dans les éléments de navigation */
 .items a {
     text-decoration: none;
     color: #ecf0f1;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles pour le bouton hamburger sur les grands écrans */
+.btn-hamburger-large-screen {
+    display: none; /* Masque le bouton hamburger sur les grands écrans */
+  }
+  
 
+/* Styles spécifiques pour les écrans étroits */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .liste {
         flex-direction: column;
-        height: 200px;
-    }
-
-    .items:nth-child(1) {
-        border-top: 1px solid #ecf0f1 ;
-        margin-top: 50px;
+        height: auto; /* Supprime la hauteur fixe pour permettre un ajustement automatique */
+        margin-top: 10px; /* Ajoute une marge de base */
     }
 
     .items {
@@ -65,13 +58,17 @@ nav {
         text-align: center;
     }
 
-    .btn {
+    .btn-hamburger {
         display: block;
         position: absolute;
         right: 10px;
-        top:10px;
+        top: 10px;
         color: black;
         cursor: pointer;
     }
-    
+
+    .items:nth-child(1) {
+        border-top: 1px solid #ecf0f1;
+        margin-top: 0; /* Ajustement pour éviter un espace supplémentaire en haut */
+    }
 }

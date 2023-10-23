@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
+
 #services {
     height: 600px;
     display: flex;
@@ -16,15 +18,15 @@
 
 .services-container h1 {
     display: block;
-    margin-left: auto;
-    margin-left: 150px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    
 }
 
 .my-services {
     width: 600px;
     height: 500px;
     margin-left: 170px;
-    background-color: red;
     text-align: center;
     border-radius: 8px;
     display: flex;
@@ -35,6 +37,7 @@
 
 .my-services h3 {
     color: black;
+    text-transform: uppercase;
 }
 .proposition-service {
     padding: 5px;
@@ -48,6 +51,7 @@
     /* Styles pour cette Media Queries */
     #services {
         height: 100vh;
+        background: linear-gradient(180deg, #e74c3c, #ecf0f1);
     }
 
     .services-container {
@@ -67,7 +71,6 @@
         width: 250px;
         margin-top: 5px;
         margin-left: 0;
-        background-color: #e74c3c;
     }
 
     .proposition-service {
@@ -76,6 +79,7 @@
 
     .proposition-service h3 {
         font-size: 17px;
+        text-transform: lowercase;
         color: #212529;
         text-align: center;
     }

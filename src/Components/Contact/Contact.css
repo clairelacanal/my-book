@@ -10,6 +10,7 @@
 .background-contact h1 {
     text-align: center;
     margin-top: 0;
+    font-family: 'Pacifico', cursive;
 }
 .background-contact h5 {
     margin-bottom: 0;
@@ -62,6 +63,8 @@
     margin-bottom: 50px;
 
 }
+
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles pour cette Media Queries */

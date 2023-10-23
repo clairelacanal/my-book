@@ -16,8 +16,11 @@ class Contact extends React.Component {
                     <div className="infos-contact">
                         <div>
                             <div className="color"><FontAwesomeIcon icon={ faLocationArrow } className="icon"/></div>
-                            <h5>Ma localisation :</h5>
-                            <p>92 rue de Charenton</p>
+                                <h5>Ma localisation :</h5>
+                            <div className="adress">
+                                <p>14 Place Abbé Pierre de Porcaro</p>
+                                <p>78100 Saint-Germain-En-Laye</p>
+                            </div>
                         </div>
                         <div>
                             <div className="color"><FontAwesomeIcon icon={ faMobile} className="icon"/></div>

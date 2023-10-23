@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
+
 #about {
     height: 600px;
     background-color: #ecf0f1;
@@ -36,7 +38,8 @@
     margin-left: 60px;
     position: relative;
     cursor: pointer;
-    text-transform: uppercase;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
 
 .paragraphes-presentation {
