@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
+import BurgerMenu from "../BurgerMenu/BurgerMenu"; // Importez le composant BurgerMenu
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [largeur, setLargeur] = useState(window.innerWidth);
-
-  const toggleMenuSmallScreen = () => {
-    setToggleMenu(!toggleMenu);
-  };
 
   useEffect(() => {
     const changeWidth = () => {
@@ -26,12 +23,8 @@ function Navbar() {
 
   return (
     <nav>
-      <button
-        onClick={toggleMenuSmallScreen}
-        className={`btn-hamburger ${largeur > 500 ? "btn-hamburger-large-screen" : ""}`}
-      >
-        &#9776; {/* Icône hamburger */}
-      </button>
+      {/* Intégrez le composant BurgerMenu ici */}
+      <BurgerMenu />
       {(toggleMenu || largeur > 500) && (
         <ul className="liste">
           <li className="items">
@@ -53,3 +46,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
