@@ -12,13 +12,13 @@ const BurgerMenu = () => {
   return (
     <div className="burger-menu">
       <div className={`burger-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <div className="bar"></div>
+        <div className="bar-bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
       {isOpen && (
         <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
-          <li>
+          <li className='apropos'>
             <a href="/a-propos">A Propos</a>
             <hr/>
           </li>
