@@ -25,7 +25,7 @@
 
 .my-services {
     width: 600px;
-    height: 500px;
+    height: 400px;
     margin-left: 170px;
     text-align: center;
     border-radius: 8px;
@@ -47,8 +47,9 @@
     font-size: 16px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles pour cette Media Queries */
+
+/* Pour les écrans de mobiles */
+@media (max-width: 768px) {
     #services {
         height: 100vh;
         background: linear-gradient(180deg, #e74c3c, #ecf0f1);
@@ -62,14 +63,14 @@
     }
 
     .services-container h1 {
-       margin-top: 90px;
+       font-size: 30px; 
+       margin-top: 20px;
        margin-left: auto;
        margin-right: auto;
     }
 
     .my-services {
         width: 250px;
-        margin-top: 5px;
         margin-left: 0;
     }
 
@@ -87,7 +88,16 @@
     .proposition-service p {
         line-height: 1;
     }
-
-
-
-}
+    
+  }
+  
+  /* Pour les écrans de tablettes */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Ajoutez ici les styles CSS pour les écrans entre 769px et 1024px de large */
+  }
+  
+  /* Pour les écrans d'ordinateurs*/
+  @media (min-width: 1025px) {
+    /* Ajoutez ici les styles CSS pour les écrans de 1025px et plus de large */
+  }
+  

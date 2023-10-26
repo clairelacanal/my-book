@@ -42,36 +42,6 @@ nav {
   }
   
 
-/* Styles spécifiques pour les écrans étroits */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .liste {
-        flex-direction: column;
-        height: auto; /* Supprime la hauteur fixe pour permettre un ajustement automatique */
-        margin-top: 10px; /* Ajoute une marge de base */
-    }
-
-    .items {
-        height: 50px;
-        width: 100%;
-        border-bottom: 1px solid #ecf0f1;
-        line-height: 50px;
-        text-align: center;
-    }
-
-    .btn-hamburger {
-        display: block;
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        color: black;
-        cursor: pointer;
-    }
-
-    .items:nth-child(1) {
-        border-top: 1px solid #ecf0f1;
-        margin-top: 0; /* Ajustement pour éviter un espace supplémentaire en haut */
-    }
-}
 
 
   
