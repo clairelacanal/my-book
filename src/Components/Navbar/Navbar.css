@@ -73,4 +73,19 @@ nav {
     }
 }
 
+/* Styles pour tablette (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+      /* Styles pour la Navbar sur tablette */
+      /* Par exemple, vous pouvez ajuster la taille du texte, la hauteur de la barre de navigation, etc. */
+    }
+  }
+  
+  /* Styles pour ordinateur de bureau (1025px et plus) */
+  @media (min-width: 1025px) {
+    .navbar {
+      /* Styles pour la Navbar sur ordinateur de bureau */
+    }
+  }
+  
 
