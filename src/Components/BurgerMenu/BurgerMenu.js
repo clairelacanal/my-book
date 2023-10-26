@@ -12,7 +12,7 @@ const BurgerMenu = () => {
   return (
     <div className="burger-menu">
       <div className={`burger-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-        <div className="bar-bar"></div>
+        <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
       </div>

@@ -12,8 +12,7 @@
 
 .background-image h1 {
     color: #ecf0f1;
-    font-size: 60px;
-    margin-top: 330px;
+    text-align: center;
 }
 
 .arrow-down{
@@ -36,39 +35,36 @@
     color: #ecf0f1;
 }
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
-    /* Styles pour cette Media Queries */
-    .background-image h1 {
-        color: blue;
-    }
-
-}
-
-@media only screen and (min-device-width : 481px) and (max-device-width : 768px) {
-    /* Styles pour cette Media Queries */
-    .background-image h1 {
-        color: red;
-        font-size: 60px;
-        margin-top: auto;
-        margin-bottom: auto;
-        text-align: center;
-    }
-
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles pour cette Media Queries */
+/* Pour les écrans de mobiles */
+@media (max-width: 768px) {
     .background-image h1 {
         font-size: 40px;
         margin-top: 200px;
         text-align: center;
     }
 
-    .arrow-down{
+    .arrow-down {
         width: 40px;
         height: 60px;
         font-size: 30px;
-        margin-top: 70px;
+        margin-top: 100px;
+    }
+   
+  }
+  
+  /* Pour les écrans de tablettes */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Ajoutez ici les styles CSS pour les écrans entre 769px et 1024px de large */
+  }
+  
+  /* Pour les écrans d'ordinateurs */
+  @media (min-width: 1025px) {
+
+    .background-image h1 {
+        color: #ecf0f1;
+        font-size: 60px;
+        margin-top: 330px;
     }
 
 }
+  

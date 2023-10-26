@@ -8,3 +8,6 @@ html, body {
   font-family:'Great Vibes', cursive;
   font-size: 100%;
   }
+  header {
+    visibility: none;
+  }

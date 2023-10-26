@@ -1,7 +1,9 @@
 .burger-menu {
   display: flex;
   justify-content: flex-end;
-  position: relative; /* ou 'absolute', 'fixed', ou 'sticky' */
+  position: absolute; /* ou 'absolute', 'fixed', ou 'sticky' */
+  top: 10px;
+  right: 0;
   z-index: 1000;
 }
 
@@ -21,7 +23,7 @@
 .burger-menu .burger-icon .bar {
   width: 2rem;
   height: 0.25rem;
-  background-color: #FAEDCD;
+  background-color: #e74c3c;
   transition: all 0.3s linear;
   position: relative;
   transform-origin: 1px;
@@ -29,7 +31,7 @@
 
 .burger-menu .burger-icon.open .bar:nth-child(1) {
   transform: rotate(45deg);
-  top: 0;
+  top: 2;
 }
 
 .burger-menu .burger-icon.open .bar:nth-child(2) {
@@ -38,7 +40,7 @@
 
 .burger-menu .burger-icon.open .bar:nth-child(3) {
   transform: rotate(-45deg);
-  top: 0;
+  top: 2;
 }
 
 .burger-menu .menu-items {
