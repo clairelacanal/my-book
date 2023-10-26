@@ -1,111 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
 
-#about {
-    height: 600px;
-    background-color: #ecf0f1;
-}
-.container-about {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 
-.photo img {
-    width: 380px;
-    height: 400px;
-    margin-right: 40px;
-}
-
-.container-presentation {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
-}
-
-.liens {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-}
-
-.liens a:hover {
-    border-bottom: 3px solid #e74c3c;
-}
-
-.liens a {
-    margin-left: 60px;
-    position: relative;
-    cursor: pointer;
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-}
-
-.paragraphes-presentation {
-    height: 285px;
-    width: 600px;
-}
-
-.paragraphes-presentation p {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles pour cette Media Queries */
+/* Styles pour mobile (largeur maximale de 768px) */
+@media (max-width: 768px) {
     #about {
-        height: 100vh;
         background-color: #ecf0f1;
-    }
-
-    .container-about {
-        padding-top: 50px;
-        display: flex;
-        flex-direction: column;
+        height: 600px;
+      }
+      
+      .container-about {
+        flex-direction: column; /* Changement de la disposition en colonne */
         align-items: center;
         justify-content: center;
-    }
-
-    .photo img {
-        width: 170px;
-        height: 170px;
+        padding-top: 20px;
+      }
+    
+      .photo img {
         display: block;
+        width: 150px; /* Largeur souhaitée pour l'image ronde */
+        height: 150px; /* Hauteur souhaitée pour l'image ronde */
+        border-radius: 50%; /* Transforme l'image en cercle */
+        object-fit: cover; /* Évite la déformation de l'image tout en la centrant */
+        margin-bottom: 20px; /* Ajoutez un espace sous l'image */
+        align-self: flex-start;
         margin-left: auto;
         margin-right: auto;
-    }
+      }
+      
+    
+      .container-presentation {
+        margin-bottom: 50px; /* Réduisez la marge inférieure */
+        text-align: center; /* Centrez le texte */
+      }
+    
+      .liens {
+        position: static; /* Supprimez la position absolue */
+        margin-top: 20px; /* Ajoutez une marge supérieure */
+      }
+    
+      .liens a {
+        margin-left: 0; /* Supprimez la marge à gauche */
+        margin-right: 20px; /* Ajoutez de l'espace entre les liens */
+      }
+    
+      .paragraphes-presentation {
+        width: 80%; /* Utilisez un pourcentage pour s'adapter aux écrans mobiles */
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .paragraphes-presentation p {
+        margin-left: 0; /* Supprimez la marge gauche pour centrer le texte */
+      }
+  }
 
-    .container-presentation {
-        margin-bottom: 200px;
+/* Styles pour tablette (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #about {
+        background-color: #ecf0f1;
+      }
+      
+      .container-about {
+        flex-direction: column; /* Changement de la disposition en colonne */
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .photo img {
+        width: 10px; /* Largeur souhaitée pour l'image ronde */
+        height: 10px; /* Hauteur souhaitée pour l'image ronde */
+        border-radius: 50%; /* Transforme l'image en cercle */
+        object-fit: cover; /* Évite la déformation de l'image tout en la centrant */
+        margin-bottom: 20px; /* Ajoutez un espace sous l'image */
+      }
+      
+    
+      .container-presentation {
+        margin-bottom: 50px; /* Réduisez la marge inférieure */
+        text-align: center; /* Centrez le texte */
+      }
+    
+      .liens {
+        position: static; /* Supprimez la position absolue */
+        margin-top: 20px; /* Ajoutez une marge supérieure */
+      }
+    
+      .liens a {
+        margin-left: 0; /* Supprimez la marge à gauche */
+        margin-right: 20px; /* Ajoutez de l'espace entre les liens */
+      }
+    
+      .paragraphes-presentation {
+        width: 80%; /* Utilisez un pourcentage pour s'adapter aux écrans mobiles */
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .paragraphes-presentation p {
+        margin-left: 0; /* Supprimez la marge gauche pour centrer le texte */
+      }
+  }
+  
+  /* Styles pour ordinateur de bureau (1025px et plus) */
+  @media (min-width: 1025px) {
+    #about {
+        height: 600px;
+        background-color: #ecf0f1;
     }
-
-    .liens {
-        padding-top: 30px;
+    .container-about {
+        padding-top: 100px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 200px;
-        margin-left: 60px;
-        margin-right: 60px;
     }
-
+    
+    .photo img {
+        width: 380px;
+        height: 400px;
+        margin-right: 40px;
+    }
+    
+    .container-presentation {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    
+    .liens {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
+    
+    .liens a:hover {
+        border-bottom: 3px solid #e74c3c;
+    }
+    
     .liens a {
-        padding: 0;
-        font-size: 15px;
+        margin-left: 60px;
+        position: relative;
+        cursor: pointer;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+    }
+    
+    .paragraphes-presentation {
+        height: 285px;
+        width: 600px;
+    }
+    
+    .paragraphes-presentation p {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
-    }
-
-    .paragraphes-presentation {
-        height: 100px;
-        width: 300px;
-        text-align: justify;
     }
     
-
-}
+  }

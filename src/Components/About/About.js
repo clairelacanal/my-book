@@ -34,7 +34,7 @@ class About extends React.Component {
             <section id="about">
                 <div className="container-about">
                     <div className="photo">
-                        <img src={photo} alt="photo"/>
+                        <img src={photo} alt="photo-claire"/>
                     </div>
                     <div className="container-presentation">
                         <div className="liens">
