@@ -27,24 +27,33 @@
         margin-right: auto;
       }
       
-    
       .container-presentation {
-        margin-bottom: 50px; /* Réduisez la marge inférieure */
         text-align: center; /* Centrez le texte */
+        display: flex;
+        flex-direction: column;
       }
     
       .liens {
         position: static; /* Supprimez la position absolue */
         margin-top: 20px; /* Ajoutez une marge supérieure */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 10px;
+      }
+
+      .a-propos {
+        margin-right: 15px;
+      }
+
+      .mes-competences {
+        margin-left: 15px;
       }
     
-      .liens a {
-        margin-left: 0; /* Supprimez la marge à gauche */
-        margin-right: 20px; /* Ajoutez de l'espace entre les liens */
-      }
     
       .paragraphes-presentation {
-        width: 80%; /* Utilisez un pourcentage pour s'adapter aux écrans mobiles */
+        display: block;/* Utilisez un pourcentage pour s'adapter aux écrans mobiles */
         margin-left: auto;
         margin-right: auto;
       }

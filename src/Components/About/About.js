@@ -38,10 +38,10 @@ class About extends React.Component {
                     </div>
                     <div className="container-presentation">
                         <div className="liens">
-                            <a onClick={this.handleClickMyPresentation}>
+                            <a onClick={this.handleClickMyPresentation} className="a-propos">
                                 A propos
                             </a>
-                            <a onClick={this.handleClickMySkills}>
+                            <a onClick={this.handleClickMySkills} className="mes-competences">
                                 Mes compétences
                             </a>
                         </div>
