@@ -1,12 +1,9 @@
-
 #mes-projets {
-    height: 800px;
     background-color: #ecf0f1;
 }
 
 #mes-projets h1 {
     margin: 0;
-    padding-top: 100px;
     text-align: center;
     font-family: 'Pacifico', cursive;
 }
@@ -15,58 +12,28 @@
     text-align: center;
 }
 
-.projets-background {
-    padding-top: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
-}
-
-.app-react{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.projets-background article {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
 .app-react-food {
     background-image: url('../images/foods.jpg');
     background-size: cover;
-    width: 400px;
-    height: 400px;
 }
 
 .app-react-plant {
     background-image: url('../images/plants.jpg');
     background-size: cover;
-    width: 400px;
-    height: 400px;
 }
 
 .app-react-kids {
     background-image: url('../images/toys.jpg');
     background-size: cover;
-    width: 400px;
-    height: 400px;
 }
 
 .projets-background button {
-    width: 300px;
-    height: 40px;
     background-color: #e74c3c;
     border: 1px solid #e74c3c;
     border-radius: 20px;
     display: block;
     margin: auto;
     opacity: 0.8;
-    margin-top: 193px;
 }
 
 .projets-background a {
@@ -77,14 +44,16 @@
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles pour cette Media Queries */
+/* Pour les écrans mobiles */
+@media (max-width: 768px) {
     #mes-projets {
-        height: 800px;
+        height: 100vh;
     }
    
     #mes-projets h1 {
-        padding-top: 50px;
+        font-size: 30px; 
+       margin-left: auto;
+       margin-right: auto;
     }
 
     .projets-background {
@@ -119,5 +88,62 @@
         height: 40px;
         margin-top: 45%;
     }
+  }
+  
+  /* Pour les écrans de tablettes */
+  @media (min-width: 769px) and (max-width: 1024px) {
     
-}
+  }
+  
+  /* Pour les écrans d'ordinateur */
+  @media (min-width: 1025px) {
+    #mes-projets {
+        height: 800px;
+    }
+
+    #mes-projets h1 {
+        padding-top: 100px;
+    }
+
+    .projets-background {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .app-react{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projets-background article {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .app-react-food {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .app-react-plant {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .app-react-kids {
+        width: 400px;
+        height: 400px;
+    }
+
+    .projets-background button {
+        width: 300px;
+        height: 40px;
+        margin-top: 193px;
+    }
+    
+  }

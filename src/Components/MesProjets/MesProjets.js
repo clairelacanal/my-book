@@ -12,13 +12,13 @@ class MesProjets extends React.Component {
                 <p>Dernières réalisations</p>
                 <div className="projets-background">
                     <article className="app-react-food">
-                        <button><a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">Basil l'appli anti-gaspi</a></button>
+                        <button><a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">BASIL l'appli anti-gaspi</a></button>
                     </article>
                     <article className="app-react-plant">
-                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">Plant-sitter, le gardiennage de vos plantes vertes</a></button>
+                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">PLANT-SITTER, gardiennage de plantes vertes</a></button>
                     </article>
                     <article className="app-react-kids">
-                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">En cours de construction</a></button>
+                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">NOUNOURS A FAIM, en construction</a></button>
                     </article>
                 </div>
             </section>
