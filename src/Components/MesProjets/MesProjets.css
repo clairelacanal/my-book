@@ -47,7 +47,7 @@
 /* Pour les écrans mobiles */
 @media (max-width: 768px) {
     #mes-projets {
-        height: 100vh;
+        height: 650px;
     }
    
     #mes-projets h1 {
@@ -69,24 +69,26 @@
     }
 
     .app-react-food {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .app-react-plant {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .app-react-kids {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .projets-background button {
-        width: 200px;
-        height: 40px;
-        margin-top: 45%;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 75px;
     }
   }
   
