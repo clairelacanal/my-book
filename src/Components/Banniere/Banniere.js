@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './Banniere.css';
 import ObtenirUnDevisForm from "../Devis/ObtenirUnDevisForm";
 
-class Baniere extends Component {
+class Banniere extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,6 +17,7 @@ class Baniere extends Component {
   fermerDevisPopup = () => {
     this.setState({ afficherDevisPopup: false });
   };
+  
 
   render() {
     const { afficherDevisPopup } = this.state;
@@ -30,10 +31,8 @@ class Baniere extends Component {
           {afficherDevisPopup && (
             <div className="devis-popup">
               <div className="devis-popup-contenu">
-                <span className="fermer" onClick={this.fermerDevisPopup}>
-                  &times;
-                </span>
                 <ObtenirUnDevisForm/>
+                <button className="fermer" onClick={this.fermerDevisPopup}>Fermer</button>
               </div>
             </div>
           )}
@@ -43,5 +42,5 @@ class Baniere extends Component {
   }
 }
 
-export default Baniere;
+export default Banniere;
 

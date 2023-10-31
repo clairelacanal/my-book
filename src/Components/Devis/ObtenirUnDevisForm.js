@@ -8,12 +8,13 @@ function ObtenirUnDevisForm() {
   const [email, setEmail] = useState('');
   const [telephone, setTelephone] = useState('');
   const [message, setMessage] = useState('');
+  
 
   // Fonction pour gérer la soumission du formulaire
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Vous pouvez envoyer les données du formulaire à votre serveur ou effectuer toute autre action nécessaire ici
+    // Envoyer les données du formulaire à votre serveur ou effectuer toute autre action nécessaire ici
     console.log('Données du formulaire :', { nom, prenom, email, telephone, message });
 
     // Réinitialisation des champs du formulaire après la soumission si nécessaire

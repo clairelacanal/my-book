@@ -14,28 +14,23 @@
   
   /* Styles pour le pop-up */
   .popup {
-    background-color: red; /* Couleur de fond du pop-up */
+    background-color: #ffff; /* Couleur de fond du pop-up */
     padding: 20px;
     max-width: 90%; /* Largeur maximale du pop-up */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Ombre pour le pop-up */
     border-radius: 8px;
     overflow-y: auto; /* Activer la défilement vertical si le contenu dépasse */
   }
-  
-  /* Styles pour le bouton de fermeture */
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-size: 20px;
-    color: #555;
+
+  label {
+    color: #e66767;
   }
   
   /* Styles pour le titre du pop-up */
   .popup h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #e66767;
   }
   
   /* Styles pour l'affichage sur les dispositifs mobiles */
