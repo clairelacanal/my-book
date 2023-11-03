@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.background-banniere button {
+.affichage-devis {
     background-color: #e66767;
     color: #ecf0f1;
     width: 150px;
@@ -34,24 +34,6 @@
     align-items: center; /* Centre le contenu verticalement */
   }
 
-/* Styles pour le bouton de fermeture */
-.fermer {
-    background-color: #ff5733; /* Couleur de fond du bouton */
-    color: #fff; /* Couleur du texte du bouton */
-    border: none; /* Supprimer la bordure */
-    padding: 10px 20px; /* Espacement intérieur du bouton */
-    border-radius: 5px; /* Bord arrondi */
-    cursor:pointer; /* Curseur de type main (pointer) au survol */
-    position: fixed; /* Position absolue */
-    top: 0; /* Alignement en haut */
-    right: 0; /* Alignement à droite */
-  }
-  
-  
-  .fermer:hover {
-    background-color: #ff0000; /* Couleur de fond au survol */
-  }
-  
 
 
 

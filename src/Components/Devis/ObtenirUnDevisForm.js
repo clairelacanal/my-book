@@ -106,7 +106,7 @@ function ObtenirUnDevisForm() {
                 <div>
                   <Confirmation />
                   <button onClick={fermerPopup} className="close-button">
-                    Fermer
+                  ✖
                   </button>
                 </div>
               )}

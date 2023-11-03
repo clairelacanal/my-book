@@ -65,7 +65,31 @@
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    background-color: #e66767;
+    color: #ecf0f1;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e66767;
+    border-radius: 25px;
+    font-weight: bold;
   }
+.close-button {
+  position: absolute;
+  top: 10px; /*  valeur pour contrôler la position verticale */
+  right: 10px; /* valeur pour contrôler la position horizontale */
+  background-color: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+  outline: none;
+  padding: 0;
+}
+
+.close-button:hover {
+  color: red;
+}
+
 
    /* Pour les écrans d'ordinateur */
    @media (min-width: 1025px) {

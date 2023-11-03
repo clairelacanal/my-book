@@ -27,12 +27,11 @@ class Banniere extends Component {
         <div className="background-banniere">
           <p>Avez-vous une idée de projet ?</p>
           <h1>Travaillons ensemble efficacement !</h1>
-          <button onClick={this.afficherDevisPopup}>Obtenir un devis</button>
+          <button className="affichage-devis" onClick={this.afficherDevisPopup}>Obtenir un devis</button>
           {afficherDevisPopup && (
             <div className="devis-popup">
               <div className="devis-popup-contenu">
                 <ObtenirUnDevisForm/>
-                <button className="fermer" onClick={this.fermerDevisPopup}>Fermer</button>
               </div>
             </div>
           )}
