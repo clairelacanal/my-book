@@ -1,6 +1,5 @@
 import React from "react";
 import './Contact.css';
-import Formulaire from "../Formulaire/Formulaire";
 import Map from '../Map/Map';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationArrow, faMobile } from '@fortawesome/free-solid-svg-icons';
@@ -34,9 +33,6 @@ class Contact extends React.Component {
                         </div>
                     </div>
                     <div className="form-map">
-                        <div className="formulaire">
-                            <Formulaire/>
-                        </div>
                         <div className="map">
                             <Map/>
                         </div>

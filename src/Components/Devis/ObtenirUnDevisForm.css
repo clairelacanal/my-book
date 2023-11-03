@@ -20,6 +20,8 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Ombre pour le pop-up */
     border-radius: 8px;
     overflow-y: auto; /* Activer la défilement vertical si le contenu dépasse */
+    width: 90%; /* Ajustez la largeur du pop-up sur les mobiles selon vos besoins */
+    margin: 20px;
   }
 
   label {
@@ -31,13 +33,47 @@
     font-size: 24px;
     margin-bottom: 10px;
     color: #e66767;
+    text-align: center;
+  }
+
+  .input-field {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .input-field:valid {
+    background-color: #e2f0e9; /* Couleur de fond pour les champs valides */
+    border-color: #4caf50; /* Couleur de la bordure pour les champs valides */
   }
   
-  /* Styles pour l'affichage sur les dispositifs mobiles */
-  @media (max-width: 768px) {
-    .popup {
-      width: 90%; /* Ajustez la largeur du pop-up sur les mobiles selon vos besoins */
-      margin: 20px; /* Ajoutez une marge pour un meilleur espacement sur les côtés */
-    }
+  .input-field:focus {
+    border-color: #007bff; /* Couleur de la bordure lorsqu'il est en focus */
   }
+
+  .required {
+  color: red; /* Couleur de l'étoile */
+  margin-left: 4px; /* Espacement entre le texte et l'étoile */
+  }
+
+  .submit-devis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+   /* Pour les écrans d'ordinateur */
+   @media (min-width: 1025px) {
+    .popup {
+      width: 700px; /*  la largeur du pop-up sur l'ecran de PC */
+    }
+
+  }
+  
+  
   
