@@ -73,6 +73,10 @@
       width: 700px; /*  la largeur du pop-up sur l'ecran de PC */
     }
 
+    .input-field {
+      width: 90%;
+    }
+
   }
   
   

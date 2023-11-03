@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './ObtenirUnDevisForm.css';
+import './Confirmation';
+import Confirmation from './Confirmation';
 
 function ObtenirUnDevisForm() {
   // Utilisation du useState hook pour gérer les états des champs du formulaire
+  const [demandeSoumise, setDemandeSoumise] = useState(false);
   const [nom, setNom] = useState('');
   const [prenom, setPrenom] = useState('');
   const [email, setEmail] = useState('');
@@ -13,6 +16,7 @@ function ObtenirUnDevisForm() {
   // Fonction pour gérer la soumission du formulaire
   const handleSubmit = (e) => {
     e.preventDefault();
+    setDemandeSoumise(true);
 
     // Envoyer les données du formulaire à votre serveur ou effectuer toute autre action nécessaire ici
     console.log('Données du formulaire :', { nom, prenom, email, telephone, message });
@@ -29,6 +33,7 @@ function ObtenirUnDevisForm() {
     <div className='overlay'>
       <div className='popup'>
       <h2>Obtenir un devis</h2>
+      {!demandeSoumise ? (
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="nom">Nom<span className="required">*</span> :</label>
@@ -87,6 +92,9 @@ function ObtenirUnDevisForm() {
         </div>
         <button type="submit" className='submit-devis'>Envoyer</button>
       </form>
+      ) : (
+        <Confirmation/>
+      )}
     </div>
     </div>
     
