@@ -1,0 +1,31 @@
+.container-confirmation {
+    color: #008000; /* Couleur verte */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-confirmation::before {
+    content: "\2713"; /* Code Unicode pour la coche (✔) */
+    font-size: 50px; /* Taille de la coche */ 
+  }
+
+.container-confirmation-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-paragraphe-confirmation {
+    text-align: center;
+}
+
+ /* Pour les écrans d'ordinateur */
+ @media (min-width: 1025px) {
+    .container-confirmation::before {
+        font-size: 100px; /* Taille de la coche */ 
+      }
+
+  }
+  
