@@ -67,6 +67,16 @@
     cursor: pointer;
   }
 
+  .close-button {
+    background-color: white;
+    color:black;
+    border: 1px solid white;
+    font-weight: bold;
+    position: absolute; /* ou "fixed" selon vos besoins */
+    margin-left: 100px;
+}
+
+
    /* Pour les écrans d'ordinateur */
    @media (min-width: 1025px) {
     .popup {
@@ -76,6 +86,10 @@
     .input-field {
       width: 90%;
     }
+
+    .close-button {
+      margin-left: 650px;
+  }
 
   }
   

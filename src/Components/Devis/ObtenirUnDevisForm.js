@@ -6,7 +6,7 @@ import Confirmation from './Confirmation';
 function ObtenirUnDevisForm() {
   const [demandeSoumise, setDemandeSoumise] = useState(false);
   const [afficherTitre, setAfficherTitre] = useState(true);
-  const [afficherPopup, setAfficherPopup] = useState(true);
+  const [afficherFormulaire, setAfficherFormulaire] = useState(false); // Nouvel état pour gérer l'affichage du formulaire
   const [nom, setNom] = useState('');
   const [prenom, setPrenom] = useState('');
   const [email, setEmail] = useState('');
@@ -30,18 +30,26 @@ function ObtenirUnDevisForm() {
   const handleClose = () => {
     setDemandeSoumise(false);
     setAfficherTitre(true);
-    setAfficherPopup(false); // Désactiver l'affichage du popup
+    setAfficherFormulaire(false); // Désactiver l'affichage du formulaire
   };
 
-  const fermerPopup = () => {
+  const ouvrirFormulaire = () => {
+    setAfficherFormulaire(true); // Activer l'affichage du formulaire
+  };
+
+  const fermerFormulaire = () => {
     handleClose();
   };
 
   return (
     <>
-      {afficherPopup && (
-        <div className='overlay' onClick={fermerPopup}>
+      <button onClick={ouvrirFormulaire}>Obtenir un devis</button>
+      {afficherFormulaire && ( // Utilisez l'état afficherFormulaire pour conditionner l'affichage du formulaire
+        <div className='overlay' onClick={fermerFormulaire}>
           <div className='popup' onClick={(e) => e.stopPropagation()}>
+            <button onClick={fermerFormulaire} className="close-button">
+                  ✖
+            </button>
             {afficherTitre && <h2>Obtenir un devis</h2>}
             {!demandeSoumise ? (
               <form onSubmit={handleSubmit}>
@@ -102,14 +110,11 @@ function ObtenirUnDevisForm() {
                 </div>
                 <button type="submit" className='submit-devis'>Envoyer</button>
               </form>
-              ) : (
-                <div>
-                  <Confirmation />
-                  <button onClick={fermerPopup} className="close-button">
-                    Fermer
-                  </button>
-                </div>
-              )}
+            ) : (
+              <div>
+                <Confirmation />
+              </div>
+            )}
           </div>
         </div>
       )}

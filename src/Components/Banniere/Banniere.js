@@ -14,11 +14,6 @@ class Banniere extends Component {
     this.setState({ afficherDevisPopup: true });
   };
 
-  fermerDevisPopup = () => {
-    this.setState({ afficherDevisPopup: false });
-  };
-  
-
   render() {
     const { afficherDevisPopup } = this.state;
 
@@ -27,12 +22,11 @@ class Banniere extends Component {
         <div className="background-banniere">
           <p>Avez-vous une idée de projet ?</p>
           <h1>Travaillons ensemble efficacement !</h1>
-          <button onClick={this.afficherDevisPopup}>Obtenir un devis</button>
+          <button onClick={this.afficherDevisPopup} className="obtenirDevis-button">Obtenir un devis</button>
           {afficherDevisPopup && (
             <div className="devis-popup">
               <div className="devis-popup-contenu">
                 <ObtenirUnDevisForm/>
-                <button className="fermer" onClick={this.fermerDevisPopup}>Fermer</button>
               </div>
             </div>
           )}
@@ -43,4 +37,3 @@ class Banniere extends Component {
 }
 
 export default Banniere;
-
