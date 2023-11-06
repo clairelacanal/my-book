@@ -18,7 +18,11 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 .background-banniere .obtenirDevis-button {
+=======
+.affichage-devis {
+>>>>>>> 94e7e6358dd3dceb92030f8e7af47e03850ede10
     background-color: #e66767;
     color: #ecf0f1;
     width: 150px;
@@ -34,6 +38,12 @@
     align-items: center; /* Centre le contenu verticalement */
   }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 94e7e6358dd3dceb92030f8e7af47e03850ede10
 /* Pour les écrans jusqu'à 768px de large */
 @media (max-width: 768px) {
     .banniere {

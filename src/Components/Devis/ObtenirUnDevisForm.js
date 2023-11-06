@@ -110,11 +110,14 @@ function ObtenirUnDevisForm() {
                 </div>
                 <button type="submit" className='submit-devis'>Envoyer</button>
               </form>
-            ) : (
-              <div>
-                <Confirmation />
-              </div>
-            )}
+              ) : (
+                <div>
+                  <Confirmation />
+                  <button onClick={fermerPopup} className="close-button">
+                    Fermer
+                  </button>
+                </div>
+              )}
           </div>
         </div>
       )}
