@@ -73,23 +73,6 @@
     border-radius: 25px;
     font-weight: bold;
   }
-.close-button {
-  position: absolute;
-  top: 10px; /*  valeur pour contrôler la position verticale */
-  right: 10px; /* valeur pour contrôler la position horizontale */
-  background-color: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-  color: #000;
-  outline: none;
-  padding: 0;
-}
-
-.close-button:hover {
-  color: red;
-}
-
 
   .close-button {
     background-color: white;

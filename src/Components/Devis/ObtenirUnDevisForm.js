@@ -47,7 +47,7 @@ function ObtenirUnDevisForm() {
       {afficherFormulaire && ( // Utilisez l'état afficherFormulaire pour conditionner l'affichage du formulaire
         <div className='overlay' onClick={fermerFormulaire}>
           <div className='popup' onClick={(e) => e.stopPropagation()}>
-            <button onClick={fermerFormulaire} className="close-button">
+          <button onClick={fermerFormulaire} className="close-button">
                   ✖
             </button>
             {afficherTitre && <h2>Obtenir un devis</h2>}
@@ -113,9 +113,6 @@ function ObtenirUnDevisForm() {
               ) : (
                 <div>
                   <Confirmation />
-                  <button onClick={fermerPopup} className="close-button">
-                    Fermer
-                  </button>
                 </div>
               )}
           </div>
