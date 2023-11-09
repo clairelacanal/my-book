@@ -1,6 +1,5 @@
 import React from "react";
 import './Contact.css';
-import Map from '../Map/Map';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationArrow, faMobile } from '@fortawesome/free-solid-svg-icons';
 
@@ -23,21 +22,16 @@ class Contact extends React.Component {
                         </div>
                         <div>
                             <div className="color"><FontAwesomeIcon icon={ faMobile} className="icon"/></div>
-                            <h5>Mon téléphone :</h5>
-                            <p>06.34.56.63.26</p>
+                                <h5>Mon téléphone :</h5>
+                                <p>06.34.56.63.26</p>
                         </div>
                         <div>
                             <div className="color"><FontAwesomeIcon icon={ faEnvelope} className="icon"/></div>
-                            <h5>Mon email :</h5>
-                            <p>lacanal.claire@gmail.com</p>
+                                <h5>Mon email :</h5>
+                                <p>lacanal.claire@gmail.com</p>
                         </div>
                     </div>
-                    <div className="form-map">
-                        <div className="map">
-                            <Map/>
-                        </div>
-                        </div>
-                    </div>
+                </div>
             </section>
         )
     }
