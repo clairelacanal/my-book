@@ -55,6 +55,12 @@
     border-color: #007bff; /* Couleur de la bordure lorsqu'il est en focus */
   }
 
+  .input-field.input-error {
+    background-color: #fde6e6; /* Couleur de fond pour les champs en erreur */
+    border-color: #f00; /* Couleur de la bordure pour les champs en erreur (rouge) */
+    color: #f00; /* Couleur du texte en erreur (rouge) */
+  }
+
   .required {
   color: red; /* Couleur de l'étoile */
   margin-left: 4px; /* Espacement entre le texte et l'étoile */
@@ -76,7 +82,7 @@
 
   .close-button {
     background-color: white;
-    color:red;
+    color:black;
     border: 1px solid white;
     font-weight: bold;
     margin-left: 220px;
