@@ -76,11 +76,10 @@
 
   .close-button {
     background-color: white;
-    color:black;
+    color:red;
     border: 1px solid white;
     font-weight: bold;
-    position: absolute; /* ou "fixed" selon vos besoins */
-    margin-left: 100px;
+    margin-left: 220px;
 }
 
 

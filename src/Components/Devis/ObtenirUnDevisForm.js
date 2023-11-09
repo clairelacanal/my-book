@@ -15,6 +15,21 @@ function ObtenirUnDevisForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Vérification du format du numéro de téléphone
+    const phoneRegex = /^0[1-9]([-. ]?[0-9]{2}){4}$/;
+    if (!phoneRegex.test(telephone)) {
+    alert("Veuillez entrer un numéro de téléphone valide au format français.");
+    return; // Ne pas soumettre le formulaire si le numéro de téléphone est invalide
+  }
+
+  // Vérification du format de l'adresse e-mail
+  const emailRegex = /^\S+@\S+\.\S+$/;
+  if (!emailRegex.test(email)) {
+    alert("Veuillez entrer une adresse e-mail valide.");
+    return; // Ne pas soumettre le formulaire si l'adresse e-mail est invalide
+  }
+  
     setDemandeSoumise(true);
     setAfficherTitre(false);
     // Laisser l'affichage du popup activé pour afficher la confirmation
