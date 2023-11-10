@@ -1,6 +1,5 @@
 #contact {
     background-color: #ecf0f1;
-    height: 100vh;
 }
 
 .background-contact h1 {
@@ -28,8 +27,6 @@
 
 .color {
     background-color: #e66767;
-    width: 60px;
-    height: 60px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -41,46 +38,49 @@
     color: #ecf0f1;
 }
 
-.form-map{
-    width: 1200px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-
-}
-
 /* Pour les écrans mobiles */
 @media (max-width: 768px) {
+
+    #contact {
+        height: 450px;
+    }
+    
     .background-contact {
         padding-top: 15px;
     }
 
     .infos-contact {
-        margin-top: 30px;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .adress {
-        width: 500px;
+    .infos-contact div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
     }
 
-    .adress p {
-        margin-bottom: 0;
+    .color {
+        width: 60px;
+        height: 60px;
     }
+
   }
 
 
 
   /* Pour les écrans d'ordinateur */
   @media (min-width: 1025px) {
+
+    #contact {
+        height: 400px;
+    }
+
     .background-contact {
         padding-top: 80px;
     }
@@ -90,56 +90,30 @@
         margin-top: 0;
         font-family: 'Pacifico', cursive;
     }
-    .background-contact h5 {
-        margin-bottom: 0;
-    }
-    .background-contact p {
-        margin-top: 10px;
-    }
     
     .infos-contact {
-        margin-top: 60px;
+        margin-top: 20px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    
+
     .infos-contact div {
-        margin-left: 50px;
-        margin-right: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 20px;
     }
     
     .color {
-        background-color: #e66767;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 100px;
+        height: 100px;
+       
     }
     
     .icon {
-        color: #ecf0f1;
-    }
-    
-    .form-map{
-        width: 1200px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-        margin-bottom: 50px;
-    
+        width: 30px;
+        height: 30px;
     }
 
   }
