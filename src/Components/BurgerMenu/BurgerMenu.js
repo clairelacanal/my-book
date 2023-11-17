@@ -11,7 +11,7 @@ const BurgerMenu = () => {
 
   return (
     <div className="burger-menu">
-      <div className={`burger-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu} aria-label="Menu Principal">
+      <div className={`burger-icon ${isOpen ? 'open fixed' : ''}`} onClick={toggleMenu} aria-label="Menu Principal">
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
