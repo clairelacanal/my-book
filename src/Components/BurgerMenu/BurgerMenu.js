@@ -11,7 +11,7 @@ const BurgerMenu = () => {
 
   return (
     <div className="burger-menu">
-      <div className={`burger-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+      <div className={`burger-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu} aria-label="Menu Principal">
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
@@ -19,19 +19,19 @@ const BurgerMenu = () => {
       {isOpen && (
         <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
           <li className='apropos'>
-            <a href="#a-propos">A Propos</a>
+            <a href="#about" onClick={toggleMenu} aria-label="En savoir plus sur moi">A Propos</a>
             <hr/>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#services" onClick={toggleMenu} aria-label="Présentation de mes services">Services</a>
             <hr/>
           </li>
           <li>
-            <a href="#projets">Projets</a>
+            <a href="#mes-projets" onClick={toggleMenu} aria-label="Présentation de mes projets">Projets</a>
             <hr/>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={toggleMenu} aria-label="Contactez-moi">Contact</a>
             <hr/>
           </li>
         </ul>
