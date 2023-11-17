@@ -6,7 +6,6 @@ import Confirmation from './Confirmation';
 function ObtenirUnDevisForm() {
   const [demandeSoumise, setDemandeSoumise] = useState(false);
   const [afficherTitre, setAfficherTitre] = useState(true);
-  const [afficherFormulaire, setAfficherFormulaire] = useState(false);
   const [nom, setNom] = useState('');
   const [prenom, setPrenom] = useState('');
   const [email, setEmail] = useState('');
@@ -15,6 +14,7 @@ function ObtenirUnDevisForm() {
   const [telephoneErreur, setTelephoneErreur] = useState(false);
   const [emailErreur, setEmailErreur] = useState(false);
   const [formulaireValide, setFormulaireValide] = useState(true);
+  const [afficherFormulaire, setAfficherFormulaire] = useState(false);
 
   const handleTelephoneChange = (e) => {
     const phoneRegex = /^0[1-9]([-. ]?[0-9]{2}){4}$/;
@@ -62,25 +62,21 @@ function ObtenirUnDevisForm() {
     setMessage('');
   };
 
-  const handleClose = () => {
-    setDemandeSoumise(false);
-    setAfficherTitre(true);
-    setAfficherFormulaire(false); // Désactiver l'affichage du formulaire
-  };
-
-  const ouvrirFormulaire = () => {
-    setAfficherFormulaire(true); // Activer l'affichage du formulaire
-  };
-
   const fermerFormulaire = () => {
-    handleClose();
-  };
+    setAfficherFormulaire(false); // Ferme le formulaire directement
+};
+
+
+
+  const handleClickOverlay = () => {
+    if (!demandeSoumise) {
+        fermerFormulaire();
+    }
+};
 
   return (
     <>
-      <button onClick={ouvrirFormulaire}>Obtenir un devis</button>
-      {afficherFormulaire && (
-        <div className='overlay' onClick={fermerFormulaire}>
+        <div className='overlay' onClick={handleClickOverlay}>
           <div className='popup' onClick={(e) => e.stopPropagation()}>
             <button onClick={fermerFormulaire} className="close-button">
               ✖
@@ -152,7 +148,6 @@ function ObtenirUnDevisForm() {
             )}
           </div>
         </div>
-      )}
     </>
   );
 }

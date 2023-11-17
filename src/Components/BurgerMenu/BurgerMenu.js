@@ -19,19 +19,19 @@ const BurgerMenu = () => {
       {isOpen && (
         <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
           <li className='apropos'>
-            <a href="/a-propos">A Propos</a>
+            <a href="#a-propos">A Propos</a>
             <hr/>
           </li>
           <li>
-            <a href="/services">Services</a>
+            <a href="#services">Services</a>
             <hr/>
           </li>
           <li>
-            <a href="/projets">Projets</a>
+            <a href="#projets">Projets</a>
             <hr/>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="#contact">Contact</a>
             <hr/>
           </li>
         </ul>

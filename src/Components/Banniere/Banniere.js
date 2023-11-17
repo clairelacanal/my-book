@@ -11,6 +11,7 @@ class Banniere extends Component {
   }
 
   afficherDevisPopup = () => {
+    console.log("afficherDevisPopup appelé");
     this.setState({ afficherDevisPopup: true });
   };
 

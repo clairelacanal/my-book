@@ -26,7 +26,7 @@
   .burger-menu .burger-icon .bar {
     width: 2rem;
     height: 0.25rem;
-    background-color: #e74c3c;
+    background-color: #ecf0f1;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
@@ -52,7 +52,7 @@
     justify-content: center;
     align-items: flex-start;
     list-style: none;
-    background: #FEC89A;
+    background: #e74c3c;
     width: 70%;
     max-width: 400px;
     height: 100vh;
@@ -66,11 +66,16 @@
   
   .burger-menu .menu-items.open {
     transform: translateX(0); /* reste le même */
+    margin: 0;
+  }
+
+  hr {
+    display: block;
   }
   
   .burger-menu .menu-items hr {
     border: none;
-    border-top: 4px solid #F8EDEB;
+    border-top: 1px solid #F8EDEB;
     width: 100vw;
     margin: 0;
   }
@@ -80,9 +85,9 @@
   }
   
   .burger-menu .menu-items li a {
-    color: #333;
+    color: #ecf0f1;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     transition: color 0.3s linear;
   }
   
