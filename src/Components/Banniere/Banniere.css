@@ -12,6 +12,7 @@
     justify-content: center;
     padding-top: 100px;
     color: #ecf0f1;
+    width: 98%;
 }
 
 .background-banniere h1 {
@@ -41,8 +42,15 @@
     }
 
     .background-banniere p {
-        margin-top: 70px;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1em;
     }
+
+    .background-banniere h1 {
+      font-size: 1.375em;
+  }
   }
   
   /* Pour les écrans de 769px à 1024px de large */

@@ -1,0 +1,270 @@
+[33mcommit 63148dea355dc01caf13e80ec08c37db780b65d1[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 17 14:15:09 2023 +0100
+
+    position fixed burger menu done
+
+[33mcommit c9e22a30423418e1e8e60525d8880f8d1ed8da47[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 17 13:32:15 2023 +0100
+
+    menubuerger finish + aria label done
+
+[33mcommit 65247342f60906c7c73931dba1477d7f1d95a18a[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 17 11:05:58 2023 +0100
+
+    buger menu v5
+
+[33mcommit 8f1eb491618aeb85ce0b82b02dc4b5045be5205a[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 10 11:51:06 2023 +0100
+
+    Contact section mobile et pc done
+
+[33mcommit 7471721bd1f5fbe47f3a8d398668f5ee1d0a11a1[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Nov 9 16:05:56 2023 +0100
+
+    suppression de la MAP + css device mobile on going
+
+[33mcommit de8c8235e5ec530f71fc86d0fb2af073be962fb5[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Nov 9 14:28:43 2023 +0100
+
+    logic form done
+
+[33mcommit a4956ed2f1a551da37044d3fc2bbe6537b6a2003[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Nov 9 11:17:32 2023 +0100
+
+    file ObtenirUnDevis on going
+
+[33mcommit fbc44a11db8a81ac9479d98f9dbfbddc78b20168[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Wed Nov 8 14:00:02 2023 +0100
+
+    component ObtenirUnDevis done
+
+[33mcommit 2441964a705b567d411b0e155e35549da9f148fc[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Nov 6 15:42:50 2023 +0100
+
+    css files baniere on going
+
+[33mcommit 41319666a3fe4961e2c2826989b830416b702dd5[m
+Merge: f4995c1 94e7e63
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Nov 6 15:31:32 2023 +0100
+
+    fichier css devis on going
+
+[33mcommit f4995c1975ac7c6700dc29e120f5052051183f2c[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Nov 6 15:15:42 2023 +0100
+
+    banniere devis on going
+
+[33mcommit 94e7e6358dd3dceb92030f8e7af47e03850ede10[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 3 16:04:51 2023 +0100
+
+    formulaire done
+
+[33mcommit 8a77fa9742ed8b00d444a195a852ba3c1e4cb3cb[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 3 15:36:08 2023 +0100
+
+    popup v3 on going + button close popup done
+
+[33mcommit 4e555671f4e44d54dfee55f544adaf26354bc858[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 3 13:35:27 2023 +0100
+
+    confirmation envoi devis on going
+
+[33mcommit 576e303b42ab7af2d01db3dcec6816cbaed0f880[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Nov 3 11:47:06 2023 +0100
+
+    visuel devis css on going
+
+[33mcommit 8f54292305f3c71eb9c63c8d404f520103e4d3fa[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Tue Oct 31 16:19:52 2023 +0100
+
+    popup on going v2
+
+[33mcommit 1e2a7e2c60f13a73fada3002f9e33ba72d4f2179[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Tue Oct 31 11:53:06 2023 +0100
+
+    creation popup composant
+
+[33mcommit c72b009f822c2ea5e1a0df3fdafc6a5acf7c22b6[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Tue Oct 31 10:13:21 2023 +0100
+
+    projets section done
+
+[33mcommit e1b5428f99a3083a40eab1cf77f1b471072d2655[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Oct 27 15:18:32 2023 +0200
+
+    section mes projet on going
+
+[33mcommit 0570fcb18e2abeac27820a5e3c613cbcc1b44dc6[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Oct 26 16:24:27 2023 +0200
+
+    mobile device services sectin rectifications
+
+[33mcommit b32cba94c32e6adcb9413b2a374fec34e4694cc7[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Oct 26 15:04:28 2023 +0200
+
+    rectifications css
+
+[33mcommit 1ce36da51f89414d311a3bd79bf7767304644955[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Oct 26 12:46:06 2023 +0200
+
+    section about et presentation done on mobile device
+
+[33mcommit 01ea364c71162cf39a459a2556147a1931ac0303[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Oct 26 11:19:33 2023 +0200
+
+    transformation device mobile v1
+
+[33mcommit 1fb66e5da5114fcbac1ba3ffc10421d78c0b14ee[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Oct 26 10:10:08 2023 +0200
+
+    rectification navbar
+
+[33mcommit c6cc47b4102b8b19bb44486ebc73f77e203f8e8d[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Wed Oct 25 23:11:04 2023 +0200
+
+    modification menu on going
+
+[33mcommit aa08f44d4ea5510046f611ab37ab93edab203735[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Wed Oct 25 14:18:10 2023 +0200
+
+    hamburger done
+
+[33mcommit fa3c0594c4c50c970b45c53dadf6ca71cf78c50a[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Tue Oct 24 15:59:59 2023 +0200
+
+    ajout burger menu
+
+[33mcommit dcd0cb73c65147d8eeeac3502bd291f44499cee0[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Oct 23 12:39:07 2023 +0200
+
+    plusieurs modifs
+
+[33mcommit 5c51d968019314867d39516dbc4e1a7fc4e45aa4[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Jun 24 16:40:52 2022 +0200
+
+    banniere responsive done
+
+[33mcommit 34d259f4fb048d1e87e161f298aeaae13459464b[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Jun 24 16:17:51 2022 +0200
+
+    MesProjets
+
+[33mcommit b43d7394815a6a4acd192656317be215717e33b7[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Jun 24 15:33:32 2022 +0200
+
+    responsive services done
+
+[33mcommit b13b68960b1dac48c2cb1dfcdc7a32c9814c3a18[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Fri Jun 24 14:32:40 2022 +0200
+
+    responsive design en cours
+
+[33mcommit 8db0a3ff494de7ff0342309cb7e81b433dcfc361[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon May 2 11:24:48 2022 +0200
+
+    rajout gitignore
+
+[33mcommit 2d0b3c488377ba6b04d14346a8e5a5e6ef193dd6[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon May 2 10:59:32 2022 +0200
+
+    services rectifications css
+
+[33mcommit 2196075df5785411d6c0b42fa48266637b5bb5fb[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon May 2 10:14:31 2022 +0200
+
+    services rectifications
+
+[33mcommit 9b2a645be06f36d584aeac4ced675aeded45997b[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon May 2 09:57:39 2022 +0200
+
+    reponsive about section done
+
+[33mcommit be481931f4efce2a2069c817df165e0f942d7f7c[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon May 2 09:06:08 2022 +0200
+
+    transporter done and rectifications
+
+[33mcommit 6947266ab46c0718ed34dfc20310438322032dd4[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Apr 28 15:34:50 2022 +0200
+
+    changements done
+
+[33mcommit 7dc9e4586b5b99bf4edee1247d8352cdfff7d27a[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Wed Apr 27 14:11:08 2022 +0200
+
+    files modified form done
+
+[33mcommit c4befe18fefcf1b768eadd34f8521230ca842b86[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Apr 25 12:14:33 2022 +0200
+
+    buttons on my projetcs page are done
+
+[33mcommit bdfa48ce98c67829c338c3b464025fca847d29d3[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Apr 25 10:16:07 2022 +0200
+
+    link 2 done
+
+[33mcommit c36e3374365a9a5bcd433a685bdb56f08f403667[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Apr 25 10:02:12 2022 +0200
+
+    link add
+
+[33mcommit d25de908e9b591cd9f4a57d671181dfb5b7dfa64[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Mon Apr 25 09:35:46 2022 +0200
+
+    footer done
+
+[33mcommit 7b8a10c910eeb4a55fbfc38ce5ef2cae998d85bf[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Sun Apr 24 23:21:15 2022 +0200
+
+    test
+
+[33mcommit f2493d506bd45b792bfb009b058ba66ba2d35f40[m
+Author: Claire Lacanal <lacanal.claire@gmail.com>
+Date:   Thu Apr 7 17:20:12 2022 +0200
+
+    Initialize project using Create React App

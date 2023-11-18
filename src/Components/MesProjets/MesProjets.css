@@ -47,17 +47,17 @@
 /* Pour les écrans mobiles */
 @media (max-width: 768px) {
     #mes-projets {
-        height: 650px;
+        height: 750px;
     }
    
     #mes-projets h1 {
-        font-size: 30px; 
+       font-size: 1.375em; 
        margin-left: auto;
        margin-right: auto;
+       padding-top: 130px;
     }
 
     .projets-background {
-        padding-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;

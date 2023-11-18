@@ -10,7 +10,6 @@ class Presentation extends React.Component {
                 <p>Développeuse web, je vous propose mes services afin de promouvoir vos activités sur la toile.</p>
                 <p>De la charte graphique, en passant par la réalisation et le conseil, je vous accompagne dans vos projets digitaux.</p>
                 <img src={Logo} alt="logo-signature"/>
-                <hr/>
             </section>
         )
     }

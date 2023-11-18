@@ -22,10 +22,6 @@ class Services extends React.Component{
                             <p>Création de contenus uniques et originaux qui répondent aux critères d'optimisation SEO</p>
 
                         </div>
-                        <div className="proposition-service">
-                            <h3>Réalisation de newsletters</h3>
-                            <p>Elaboration et envoi afin de fidéliser les abonnés et en gagner de nouveaux</p>
-                        </div>
                     </div>
                 </div>
             </section>

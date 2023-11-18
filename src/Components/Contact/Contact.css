@@ -6,6 +6,7 @@
     text-align: center;
     margin-top: 0;
     font-family: 'Pacifico', cursive;
+    font-size: 1.375em; 
 }
 
 .background-contact h5 {
@@ -42,11 +43,15 @@
 @media (max-width: 768px) {
 
     #contact {
-        height: 450px;
+        height: 400px;
     }
-    
+
     .background-contact {
         padding-top: 15px;
+    }
+
+    .background-contact h1 {
+        padding-top: 20px;
     }
 
     .infos-contact {
