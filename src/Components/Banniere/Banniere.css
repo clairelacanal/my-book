@@ -13,6 +13,7 @@
     padding-top: 100px;
     color: #ecf0f1;
     width: 98%;
+    text-align: center;
 }
 
 .background-banniere h1 {
@@ -38,7 +39,7 @@
 /* Pour les écrans jusqu'à 768px de large */
 @media (max-width: 768px) {
     .banniere {
-        height: 100vh;
+        height: 400px;
     }
 
     .background-banniere p {

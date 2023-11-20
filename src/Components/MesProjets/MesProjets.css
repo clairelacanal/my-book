@@ -47,14 +47,15 @@
 /* Pour les écrans mobiles */
 @media (max-width: 768px) {
     #mes-projets {
-        height: 750px;
+        height: 650px;
     }
    
     #mes-projets h1 {
-       font-size: 1.375em; 
-       margin-left: auto;
-       margin-right: auto;
-       padding-top: 130px;
+        text-align: center;
+        margin-top: 0;
+        font-family: 'Pacifico', cursive;
+        font-size: 1.375em;
+        padding-top: 20px; 
     }
 
     .projets-background {

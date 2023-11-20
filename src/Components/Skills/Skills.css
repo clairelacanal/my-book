@@ -1,14 +1,10 @@
 .skills ul{
+    list-style-type: none; /* Enlève les puces */
     margin-top: 83px;
     padding: 0;
 }
 
 .skills ul li {
-    list-style: none;
-}
-
-.skills ul li {
-	list-style-type: circle;
     font-weight: bold;
     size: 20px;
     cursor: pointer;

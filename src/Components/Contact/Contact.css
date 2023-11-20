@@ -51,7 +51,11 @@
     }
 
     .background-contact h1 {
-        padding-top: 20px;
+       text-align: center;
+       margin-top: 0;
+       font-family: 'Pacifico', cursive;
+       font-size: 1.375em;
+       padding-top: 20px; 
     }
 
     .infos-contact {
