@@ -20,7 +20,6 @@ class Services extends React.Component{
                         <div className="proposition-service">
                             <h3>Elaboration de vos contenus web</h3>
                             <p>Création de contenus uniques et originaux qui répondent aux critères d'optimisation SEO</p>
-
                         </div>
                     </div>
                 </div>
