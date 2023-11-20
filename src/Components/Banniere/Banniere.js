@@ -11,25 +11,24 @@ class Banniere extends Component {
   }
 
   afficherDevisPopup = () => {
-    console.log("afficherDevisPopup appelé");
     this.setState({ afficherDevisPopup: true });
   };
 
-  render() {
-    const { afficherDevisPopup } = this.state;
+  fermerDevisPopup = () => {
+    this.setState({ afficherDevisPopup: false });
+  };
 
+  render() {
     return (
       <section className="banniere">
         <div className="background-banniere">
           <p>Avez-vous une idée de projet ?</p>
           <h1>Travaillons ensemble efficacement !</h1>
-          <button onClick={this.afficherDevisPopup} className="obtenirDevis-button">Obtenir un devis</button>
-          {afficherDevisPopup && (
-            <div className="devis-popup">
-              <div className="devis-popup-contenu">
-                <ObtenirUnDevisForm/>
-              </div>
-            </div>
+          <button onClick={this.afficherDevisPopup} className="obtenirDevis-button">
+            Obtenir un devis
+          </button>
+          {this.state.afficherDevisPopup && (
+            <ObtenirUnDevisForm fermerPopup={this.fermerDevisPopup} />
           )}
         </div>
       </section>
