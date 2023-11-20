@@ -32,7 +32,7 @@
 /* Pour les écrans de mobiles */
 @media (max-width: 768px) {
     #services {
-        height: 580px;
+        height: 620px;
         background: linear-gradient(180deg, #e74c3c, #ecf0f1);
     }
 
