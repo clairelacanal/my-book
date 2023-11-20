@@ -1,5 +1,9 @@
 import React from "react";
 import './Services.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPen } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faTrowelBricks } from "@fortawesome/free-solid-svg-icons";
 
 
 class Services extends React.Component{
@@ -10,14 +14,17 @@ class Services extends React.Component{
                     <h1>Mes services</h1>
                     <div className="my-services">
                         <div className="proposition-service">
+                            <FontAwesomeIcon icon={faTrowelBricks} className="icon-service" />
                             <h3>Création de votre site internet</h3>
                             <p>Réalisation de A à Z à votre goût et à votre image</p>
                         </div>
                         <div className="proposition-service">
+                            <FontAwesomeIcon icon={faLaptopCode} className="icon-service" />
                             <h3>Refonte de votre site web</h3>
                             <p>Modernisation de votre site web préexistant</p>
                         </div>
                         <div className="proposition-service">
+                            <FontAwesomeIcon icon={faPen} className="icon-service"/>
                             <h3>Elaboration de vos contenus web</h3>
                             <p>Création de contenus uniques et originaux qui répondent aux critères d'optimisation SEO</p>
                         </div>
