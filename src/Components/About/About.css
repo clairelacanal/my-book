@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
 
+.liens a {
+  font-family: 'Pacifico', cursive;
+    
+}
 
 /* Styles pour mobile (largeur maximale de 768px) */
 @media (max-width: 768px) {
@@ -66,53 +70,63 @@
 
 /* Styles pour tablette (768px à 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    #about {
-        background-color: #ecf0f1;
-    }
-    
-    .container-about {
-        flex-direction: column; /* Changement de la disposition en colonne */
-        align-items: center;
-        justify-content: center;
-    }
+  #about {
+      background-color: #ecf0f1;
+      height: 600px;
+  }
+  
+  .container-about {
+      flex-direction: row; /* Vous pourriez envisager une disposition en ligne pour les tablettes */
+      align-items: center;
+      justify-content: center;
+      padding-top: 50px; /* Ajustez la marge supérieure selon vos besoins */
+  }
 
-    .photo img {
-        width: 100px; /* Ajustez la largeur de l'image ronde selon vos besoins */
-        height: 100px; /* Ajustez la hauteur de l'image ronde selon vos besoins */
-        border-radius: 50%; /* Transforme l'image en cercle */
-        object-fit: cover; /* Évite la déformation de l'image tout en la centrant */
-        margin-bottom: 20px; /* Ajoutez un espace sous l'image */
-    }
-    
-    .container-presentation {
-        margin-bottom: 50px; /* Réduisez la marge inférieure */
-        text-align: center; /* Centrez le texte */
-    }
-    
-    .liens {
-        position: static; /* Supprimez la position absolue */
-        margin-top: 20px; /* Ajoutez une marge supérieure */
-        display: flex; /* Utilisez flexbox pour aligner les liens côte à côte */
-        justify-content: center; /* Centrez les liens horizontalement */
-    }
-    
-    .liens a {
-        margin-left: 10px; /* Ajoutez un espace entre les liens */
-        margin-right: 10px; /* Ajoutez un espace entre les liens */
-    }
-    
-    .paragraphes-presentation {
-        width: 80%; /* Utilisez un pourcentage pour s'adapter aux écrans mobiles */
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .paragraphes-presentation p {
-        margin-left: 0; /* Supprimez la marge gauche pour centrer le texte */
-    }
+  .photo img {
+      width: 150px; /* Ajustez la largeur de l'image */
+      height: 150px; /* Ajustez la hauteur de l'image */
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px; /* Espace entre l'image et le texte */
+      display: block;
+      margin: 0 auto;
+  }
+  
+  .container-presentation {
+      text-align: left; /* Texte aligné à gauche pour un aspect plus naturel côté à côte avec l'image */
+      flex: 1; /* Permet au conteneur de prendre l'espace restant */
+  }
+  
+  .liens {
+      position: static;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .liens a {
+      margin: 0 10px; /* Espace autour des liens */
+      font-size: 1em;
+  }
+
+  .liens a:hover {
+    border-bottom: 3px solid #e74c3c;
+}
+  
+  .paragraphes-presentation {
+      width: 80%;
+      margin: 0 auto; /* Centrer le bloc de texte */
+  }
+
+  .paragraphes-presentation p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
 }
 
-  
   /* Styles pour ordinateur de bureau (1025px et plus) */
   @media (min-width: 1025px) {
     #about {
