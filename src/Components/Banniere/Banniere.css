@@ -30,6 +30,10 @@
     font-weight: bold;
 }
 
+.obtenirDevis-button{
+  cursor: pointer;
+}
+
 .devis-popup-contenu {
     display: flex;
     flex-direction: column;

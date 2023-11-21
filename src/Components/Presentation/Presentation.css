@@ -10,29 +10,63 @@
     .presentation-me span {
         color: #e74c3c;
     }
-
-    hr {
-        display: none;
-    }
  
     .presentation-me h1 {
          font-size: 20px;
          text-align: center;
     }
 
+    .presentation-me h2 {
+        font-size: 18px;
+        text-align: center;
+   }
+
     .presentation-me p {
-        text-align: justify;
+        text-align: center;
    }
     
     .presentation-me img {
-        height: 100px;
-        width: 100px;
+        display: none;
+    }
+ 
+}
+
+@media (min-width: 1025px) {
+
+    .presentation-me {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .presentation-me img {
+        height: 200px;
+        width: 200px;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .presentation-me span {
+        color: #e74c3c;
+    }
  
-}
+    .presentation-me h1 {
+         font-size: 20px;
+    }
+
+    .presentation-me h2 {
+        font-size: 18px;
+   }
+
+   .presentation-me img {
+    height: 70px;
+    width: 70px;
+    }
+    
+  }
 
 
 

@@ -17,3 +17,14 @@
 .skills hr {
     margin-top: 143px;
 }
+
+/* Pour les écrans d'ordinateurs*/
+@media (min-width: 1025px) {
+    .skills {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        text-align: left;
+    }
+}

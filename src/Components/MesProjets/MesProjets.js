@@ -10,13 +10,13 @@ class MesProjets extends React.Component {
                 <p>Dernières réalisations</p>
                 <div className="projets-background">
                     <article className="app-react-food">
-                        <button><a href="https://basil-recipes.herokuapp.com/" target="_blank" rel="noopener noreferrer">BASIL</a></button>
+                        <button><a href="http://35.180.128.96:3001" target="_blank" rel="noopener noreferrer">BASIL</a></button>
                     </article>
                     <article className="app-react-plant">
-                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">PLANT-SITTER</a></button>
+                        <button><a href="http://35.180.128.96:3000" target="_blank" rel="noopener noreferrer">PLANT-SITTER</a></button>
                     </article>
                     <article className="app-react-kids">
-                        <button><a href="https://plant-sitter.herokuapp.com/" target="_blank" rel="noopener noreferrer">NOUNOURS A FAIM</a></button>
+                        <button>NOUNOURS A FAIM - en construction</button>
                     </article>
                 </div>
             </section>
