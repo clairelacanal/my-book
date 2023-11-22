@@ -81,6 +81,38 @@
 
   }
 
+  /* Pour les écrans de tablettes */
+  @media (min-width: 769px) and (max-width: 1024px) {
+
+    #contact {
+        height: 450px;
+    }
+
+    #contact h1 {
+        margin-top: 0;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 20px;   
+    }
+
+    .infos-contact div {
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 20px;
+    }
+    
+    .color {
+        width: 80px;
+        height: 80px;
+       
+    }
+    
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+  }
+
 
 
   /* Pour les écrans d'ordinateur */
