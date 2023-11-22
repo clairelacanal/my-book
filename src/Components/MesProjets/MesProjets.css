@@ -44,6 +44,14 @@
 
 }
 
+.projets-background button {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+}
+
 /* Pour les écrans mobiles */
 @media (max-width: 768px) {
     #mes-projets {
@@ -83,18 +91,46 @@
         width: 150px;
         height: 150px;
     }
-
-    .projets-background button {
-        display: flexbox;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 75px;
-    }
   }
   
   /* Pour les écrans de tablettes */
   @media (min-width: 769px) and (max-width: 1024px) {
+
+    #mes-projets {
+        height: 500px;
+    }
+
+    #mes-projets h1 {
+        margin-top: 0;
+        text-align: center;
+        padding-top: 80px;
+        margin-bottom: 20px;
+        
+    }
+
+    #mes-projets p {
+        margin-top: 0px;
+        
+    }
+
+    .projets-background {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    /* Applique une marge à gauche à tous les articles sauf au dernier */
+    .projets-background article {
+    margin-top: 10px;
+    margin-left: 50px;
+    }
+
+    /* Styles pour les éléments individuels */
+        .app-react-food, .app-react-plant, .app-react-kids {
+    width: 150px;
+    height: 150px;
+    }
     
   }
   
