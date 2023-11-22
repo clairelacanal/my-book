@@ -186,9 +186,18 @@
     }
 
     .projets-background a {
-        margin-top: 0.8em;
+        text-align: center;    
+        padding: 10px 20px;
     
     }
+
+    .button-app {
+        text-align: center;     
+        padding: 10px 20px;     
+    }
+    
+    
+    
     
     
   }

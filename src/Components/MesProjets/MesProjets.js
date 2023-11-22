@@ -16,7 +16,7 @@ class MesProjets extends React.Component {
                         <button><a href="http://35.180.128.96:3000" target="_blank" rel="noopener noreferrer">PLANT-SITTER</a></button>
                     </article>
                     <article className="app-react-kids">
-                        <button>NOUNOURS A FAIM - en construction</button>
+                        <button className="button-app">NOUNOURS A FAIM - en construction</button>
                     </article>
                 </div>
             </section>
