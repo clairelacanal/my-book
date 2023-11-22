@@ -58,10 +58,6 @@
   }
   }
   
-  /* Pour les écrans de 769px à 1024px de large */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* Ajoutez ici les styles CSS pour les écrans entre 769px et 1024px de large */
-  }
   
   /* Pour les écrans de 1025px et plus de large */
   @media (min-width: 1025px) {

@@ -89,6 +89,29 @@
     margin-bottom: 1em;
 }
 
+  /* Styles pour tablette (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .close-button {
+    margin-left: 700px;
+  }
+
+  .popup form div {
+    text-align: center; 
+  }
+
+  label {
+    display: block; 
+    margin-bottom: 5px; 
+    text-align: center; 
+  }
+
+  .input-field {
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+  }
+}
+
 
    /* Pour les écrans d'ordinateur */
    @media (min-width: 1025px) {

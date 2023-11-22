@@ -6,8 +6,8 @@
 }
 
 .liens a:hover {
-  border-bottom: 3px solid #e74c3c;
-}
+        border-bottom: 3px solid #e74c3c;
+    }
 
 /* Styles pour mobile (largeur maximale de 768px) */
 @media (max-width: 768px) {
