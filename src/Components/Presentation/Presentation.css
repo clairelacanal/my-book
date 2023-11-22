@@ -1,3 +1,7 @@
+.presentation-me span {
+    color: #e74c3c;
+}
+
 /* Styles pour mobile (largeur maximale de 768px) */
 @media (max-width: 768px) {
     .presentation-me {
@@ -7,10 +11,6 @@
         margin-top: 60px;
     }
 
-    .presentation-me span {
-        color: #e74c3c;
-    }
- 
     .presentation-me h1 {
          font-size: 20px;
          text-align: center;
@@ -31,6 +31,25 @@
  
 }
 
+/* Styles pour tablette (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .presentation-me {
+        width: 500px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .presentation-me img {
+        height: 70px;
+        width: 70px;
+        }
+        
+   
+}
+
 @media (min-width: 1025px) {
 
     .presentation-me {
@@ -47,10 +66,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .presentation-me span {
-        color: #e74c3c;
     }
  
     .presentation-me h1 {

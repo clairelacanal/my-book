@@ -18,6 +18,18 @@
     margin-top: 143px;
 }
 
+/* Styles pour tablette (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skills {
+        width: 500px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        text-align: center;
+    }
+}
+
 /* Pour les écrans d'ordinateurs*/
 @media (min-width: 1025px) {
     .skills {

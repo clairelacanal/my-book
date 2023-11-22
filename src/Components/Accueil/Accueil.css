@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+.background-image h1 span {
+    color: #e74c3c;
+}
+
 .background-image h1 {
     color: #ecf0f1;
     text-align: center;

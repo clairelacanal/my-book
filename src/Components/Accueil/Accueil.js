@@ -12,7 +12,7 @@ class Accueil extends React.Component{
             <section className="presentation">
                 <div className="presentation-background">
                     <div className="background-image">
-                        <h1>Développeuse Web.|</h1>
+                        <h1>Développeu<span>se</span> Web.|</h1>
                         <div className="arrow-down">
                             <a href="#about"><FontAwesomeIcon icon={ faArrowDown}/></a>
                         </div>
