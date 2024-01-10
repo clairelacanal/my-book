@@ -38,15 +38,15 @@ class About extends React.Component {
                     </div>
                     <div className="container-presentation">
                         <div className="liens">
-                            <a onClick={this.handleClickMyPresentation} className="a-propos">
-                                A propos
+                            <a onClick={this.handleClickMyPresentation} className={`a-propos ${this.state.myPresentation ? 'active' : ''}`}>
+                                À propos
                             </a>
-                            <a onClick={this.handleClickMySkills} className="mes-competences">
+                            <a onClick={this.handleClickMySkills} className={`mes-competences ${this.state.mySkills ? 'active' : ''}`}>
                                 Mes compétences
                             </a>
                         </div>
                         <div className="paragraphes-presentation">
-                            <p>{this.state.myPresentation ? <Presentation/> : <Skills/>}</p>
+                            {this.state.myPresentation ? <Presentation/> : <Skills/>}
                         </div>
                     </div>
                 </div>

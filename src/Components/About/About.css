@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@1,300&display=swap');
 
+.container-about {
+  flex-direction: column; /* Changement de la disposition en colonne */
+  align-items: center;
+  justify-content: center;
+}
+
 .liens a {
   font-family: 'Pacifico', cursive;
     
 }
 
-.liens a:hover {
-        border-bottom: 3px solid #e74c3c;
-    }
+.liens a.active {
+      border-bottom: 3px solid #e74c3c;
+}
+
+.photo img {
+  border-radius: 50%;
+}
 
 /* Styles pour mobile (largeur maximale de 768px) */
 @media (max-width: 768px) {
@@ -138,16 +148,13 @@
         background-color: #ecf0f1;
     }
     .container-about {
-        padding-top: 100px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        width: 1200px;
+        
     }
     
     .photo img {
-        width: 380px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
         margin-right: 40px;
     }
     
