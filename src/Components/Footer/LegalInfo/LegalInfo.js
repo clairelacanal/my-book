@@ -8,13 +8,10 @@ const LegalInfo = () => {
             <p>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site clairelacanal l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
             
             <h2>Identification</h2>
-            <p>Entreprise individuelle sous le régime de la micro-entreprise</p>
             <p>Opérateur du Site : Claire Lacanal</p>
             <p>Site Web : <a href="http://www.clairelacanal.com">www.clairelacanal.com</a></p>
             <p>Adresse : 14 Place Abbé Pierre de Porcaro 78100 Saint-Germain-En-Laye</p>
             <p>Contact : lacanal.claire@gmail.com / 06.34.56.63.26</p>
-            <p>Numéro SIREN : 982598039</p>
-            <p>Numéro de TVA intracommunautaire : TVA non applicable, art. 293 B du CGI</p>
 
             <h2>Hébergement du site</h2>
             <p>Nom de l'hébergeur : VERCEL</p>
