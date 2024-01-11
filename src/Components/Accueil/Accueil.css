@@ -22,7 +22,7 @@
 /* Pour les écrans de mobiles */
 @media (max-width: 768px) {
     .background-image h1 {
-        font-size: 20px;
+        font-size: 30px;
         margin-top: 100px;
         text-align: center;
     }
@@ -32,14 +32,10 @@
   
   /* Pour les écrans de tablettes */
   @media (min-width: 769px) and (max-width: 1024px) {
-    .background-image {
-      height: 100vh;
-      background-size: cover; 
-    }
   
     .background-image h1 {
       color: #ecf0f1;
-      font-size: 3px; /* Taille de police adaptée aux tablettes */
+      font-size: 30px; /* Taille de police adaptée aux tablettes */
       margin-top: 100px; 
       text-align: center;
     }
