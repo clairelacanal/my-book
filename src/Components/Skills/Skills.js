@@ -12,6 +12,8 @@ class Skills extends React.Component {
                     <li>MongoDB</li>
                     <li>Node-js</li>
                     <li>Express</li>
+                    <li>API REST</li>
+                    <li>CRUD opérations</li>
                     <li>React</li>
                     <li>Vue</li>
                     <li>Responsive Design</li>

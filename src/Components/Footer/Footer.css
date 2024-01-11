@@ -2,6 +2,8 @@
     background-color: #1e272e;
     height: 300px;
     font-family: 'Arial', sans-serif; /* Exemple de police */
+    display: flex;
+    flex-direction: column;
 }
 
 .footer p {
@@ -10,7 +12,13 @@
     transition: color 0.3s ease; /* Transition pour effet de survol */
 }
 
-.footer p:hover {
+.footer a, .footer a:visited {
+    color: #ecf0f1; /* Ou toute autre couleur souhaitée */
+    text-decoration: none; /* Optionnel: enlève le soulignement */
+    font-size: 15px;
+}
+
+.footer a:hover {
     color: #bdc3c7; /* Couleur de survol */
 }
 
@@ -50,8 +58,6 @@
     .footer {
         background-color: #1e272e;
         height: 200px;
-        display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
     }

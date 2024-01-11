@@ -11,17 +11,17 @@ class Services extends React.Component{
         return(
             <section id="services">
                 <div className="services-container">
-                    <h1>Mes services</h1>
+                    <h1>Mes services.</h1>
                     <div className="my-services">
                         <div className="proposition-service">
                             <FontAwesomeIcon icon={faTrowelBricks} className="icon-service" />
-                            <h3>Création de votre site internet</h3>
-                            <p>Réalisation de A à Z à votre goût et à votre image</p>
+                            <h3>Création d'applications et de sites internet</h3>
+                            <p>Réalisation d'applications et de sites de A à Z</p>
                         </div>
                         <div className="proposition-service">
                             <FontAwesomeIcon icon={faLaptopCode} className="icon-service" />
-                            <h3>Refonte de votre site web</h3>
-                            <p>Modernisation de votre site web préexistant</p>
+                            <h3>Refonte d'applications et de sites web</h3>
+                            <p>Modernisation de vos projets digitaux</p>
                         </div>
                         <div className="proposition-service">
                             <FontAwesomeIcon icon={faPen} className="icon-service"/>

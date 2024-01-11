@@ -6,8 +6,8 @@ class Footer extends React.Component{
     render(){
         return(
             <section className="footer">
-                <p>© 2022 ClaireLacanal - All Rights Reserved</p>
-                <Link to="/mentions-legales">Mentions légales</Link>
+                <p>© 2022 ClaireLacanal - Tous droits réservés</p>
+                <Link to="/mentions-legales"> Mentions légales</Link>
             </section>
         )
     }
