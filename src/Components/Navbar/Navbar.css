@@ -36,6 +36,10 @@ nav {
     color: #ecf0f1;
 }
 
+.liste .items a:hover {
+    color: #e74c3c;
+}
+
 /* Styles pour le bouton hamburger sur les grands écrans */
 .btn-hamburger-large-screen {
     display: none; /* Masque le bouton hamburger sur les grands écrans */
