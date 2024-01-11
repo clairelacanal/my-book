@@ -19,6 +19,17 @@
   border-radius: 50%;
 }
 
+.paragraphes-presentation p {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
 /* Styles pour mobile (largeur maximale de 768px) */
 @media (max-width: 768px) {
     #about {
@@ -144,49 +155,43 @@
   /* Styles pour ordinateur de bureau (1025px et plus) */
   @media (min-width: 1025px) {
     #about {
-        height: 600px;
-        background-color: #ecf0f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 90vh;
+      background-color:  #ecf0f1;
     }
+    
     .container-about {
-        width: 1200px;
-        
+      width: 80%;
+      max-width: 1200px;
+    }
+    
+    .photo {
+      max-width: 200px; /* Limite la largeur maximale de la photo */
+      margin: 0 auto; /* Centre la photo */
+    
     }
     
     .photo img {
-        width: 200px;
-        height: 200px;
-        margin-right: 40px;
+      width: 100%; /* Assure que l'image s'adapte à la largeur du conteneur .photo */
+      height: auto; /* Garde le ratio de l'image */
     }
     
     .container-presentation {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 100px;
-    }
-    
-    .liens {
-        display: flex;
-        flex-direction: row;
-        position: absolute;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 6em;
     }
     
     .liens a {
-        margin-left: 60px;
-        position: relative;
-        cursor: pointer;
-        font-family: 'Pacifico', cursive;
-        font-size: 30px;
+      margin: 20px;
     }
-    
-    .paragraphes-presentation {
-        height: 285px;
-        width: 600px;
-    }
-    
+
     .paragraphes-presentation p {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+      padding: 10px;
+      position:relative;
     }
-    
+   
   }

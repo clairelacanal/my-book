@@ -46,7 +46,7 @@ class About extends React.Component {
                             </a>
                         </div>
                         <div className="paragraphes-presentation">
-                            {this.state.myPresentation ? <Presentation/> : <Skills/>}
+                            <p>{this.state.myPresentation ? <Presentation/> : <Skills/>}</p>
                         </div>
                     </div>
                 </div>

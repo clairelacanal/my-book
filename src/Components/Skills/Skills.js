@@ -16,7 +16,7 @@ class Skills extends React.Component {
                     <li>Vue</li>
                     <li>Responsive Design</li>
                     <li>WordPress</li>
-                    <li>Anglais (niveau A2)</li>
+                    <li>Anglais (niveau B1)</li>
                 </ul>
             </section>
         )
