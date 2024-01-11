@@ -15,16 +15,19 @@
 .app-react-food {
     background-image: url('../images/foods.jpg');
     background-size: cover;
+    border-radius: 3%;
 }
 
 .app-react-plant {
     background-image: url('../images/plants.jpg');
     background-size: cover;
+    border-radius: 3%;
 }
 
 .app-react-kids {
     background-image: url('../images/toys.jpg');
     background-size: cover;
+    border-radius: 3%;
 }
 
 .projets-background button {
