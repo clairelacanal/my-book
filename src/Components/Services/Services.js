@@ -15,12 +15,12 @@ class Services extends React.Component{
                     <div className="my-services">
                         <div className="proposition-service">
                             <FontAwesomeIcon icon={faTrowelBricks} className="icon-service" />
-                            <h3>Création d'applications et de sites internet</h3>
+                            <h3>Création d'applications et de sites</h3>
                             <p>Réalisation d'applications et de sites de A à Z</p>
                         </div>
                         <div className="proposition-service">
                             <FontAwesomeIcon icon={faLaptopCode} className="icon-service" />
-                            <h3>Refonte d'applications et de sites web</h3>
+                            <h3>Refonte d'applications et de sites</h3>
                             <p>Modernisation de vos projets digitaux</p>
                         </div>
                         <div className="proposition-service">
