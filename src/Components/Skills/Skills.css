@@ -33,7 +33,9 @@
 /* Pour les écrans d'ordinateurs*/
 @media (min-width: 1025px) {
     .skills {
-        margin: 0 auto;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
 
